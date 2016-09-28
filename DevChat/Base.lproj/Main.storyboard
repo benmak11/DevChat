@@ -17,12 +17,48 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FrI-SP-SYJ" userLabel="PreviewView" customClass="AAPLPreviewView">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rg0-03-PjG">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="dVt-Wi-D2B"/>
+                                    <constraint firstAttribute="height" constant="50" id="qNK-oc-bmR"/>
+                                </constraints>
+                                <state key="normal" image="createsnap_btn"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBn-0D-6Of">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="69" id="2Zd-yT-gy3"/>
+                                    <constraint firstAttribute="height" constant="48" id="bu7-cg-NFH"/>
+                                </constraints>
+                                <state key="normal" image="camera_icon_snap"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="LBn-0D-6Of" secondAttribute="trailing" constant="8" id="4NZ-Nv-nzE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Rg0-03-PjG" secondAttribute="bottom" constant="8" id="EOX-rN-V9X"/>
+                            <constraint firstItem="FrI-SP-SYJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="MdV-yk-YZG"/>
+                            <constraint firstItem="FrI-SP-SYJ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="QQX-dN-a1Z"/>
+                            <constraint firstItem="Rg0-03-PjG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="R9b-F7-BAl"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FrI-SP-SYJ" secondAttribute="bottom" id="nh1-h4-cEV"/>
+                            <constraint firstItem="LBn-0D-6Of" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="y08-CH-R8a"/>
+                            <constraint firstAttribute="trailing" secondItem="FrI-SP-SYJ" secondAttribute="trailing" id="y7U-Xd-MFZ"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="previewView" destination="FrI-SP-SYJ" id="16d-av-rMD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="70" y="131"/>
+            <point key="canvasLocation" x="69.599999999999994" y="130.88455772113943"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="camera_icon_snap" width="29" height="24"/>
+        <image name="createsnap_btn" width="30" height="30"/>
+    </resources>
 </document>
