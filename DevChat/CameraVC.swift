@@ -26,6 +26,7 @@ class CameraVC: AAPLCameraViewController, AAPLCameraVCDelegate {
     
     override func viewDidAppear(_ animated: Bool) {
         
+        // Testing for new users  performSegue(withIdentifier: "LoginVC", sender: nil)
         guard FIRAuth.auth()?.currentUser != nil else {
             //Load login vc
             //Checks login and if logged in, automatically logs you in
