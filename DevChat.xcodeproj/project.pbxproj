@@ -69,6 +69,7 @@
 		A7FAD5781D9B83A000F6B424 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A7FAD54F1D9B797700F6B424 /* CameraVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -76,7 +77,6 @@
 		A7FAD5791D9B83A900F6B424 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A7FAD54F1D9B797700F6B424 /* CameraVC.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";

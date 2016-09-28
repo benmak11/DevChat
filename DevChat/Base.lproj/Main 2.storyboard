@@ -17,12 +17,26 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="59S-Aj-caw" userLabel="PreviewView" customClass="PreviewView" customModule="DevChat" customModuleProvider="target">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="59S-Aj-caw" secondAttribute="bottom" id="081-qY-1v5"/>
+                            <constraint firstItem="59S-Aj-caw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Rkf-f6-lvd"/>
+                            <constraint firstAttribute="trailing" secondItem="59S-Aj-caw" secondAttribute="trailing" id="UFO-wA-x0c"/>
+                            <constraint firstItem="59S-Aj-caw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ffQ-JP-P47"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="previewView" destination="59S-Aj-caw" id="gh5-RE-dr1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="70" y="131"/>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
         </scene>
     </scenes>
 </document>

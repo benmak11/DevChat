@@ -8,8 +8,9 @@
 
 import UIKit
 
-class CameraVC: UIViewController {
+class CameraVC: CameraViewController {
 
+    @IBOutlet weak var previewView: PreviewView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
