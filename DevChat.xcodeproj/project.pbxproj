@@ -11,6 +11,7 @@
 		A7759F521D9B8F47002FD35E /* AAPLPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7759F4F1D9B8F47002FD35E /* AAPLPreviewView.m */; };
 		A7759F531D9B8F47002FD35E /* AAPLCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7759F511D9B8F47002FD35E /* AAPLCameraViewController.m */; };
 		A7759F591D9B9D2B002FD35E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7759F581D9B9D2B002FD35E /* GoogleService-Info.plist */; };
+		A7914DB51D9BD1AB00E55C70 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7914DB41D9BD1AB00E55C70 /* DataService.swift */; };
 		A7BA0EC11D9BAB920077AD39 /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BA0EC01D9BAB920077AD39 /* RoundTextField.swift */; };
 		A7CA95701D9BB3C200EC39B7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CA956F1D9BB3C200EC39B7 /* LoginVC.swift */; };
 		A7CA95731D9BB67B00EC39B7 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CA95721D9BB67B00EC39B7 /* AuthService.swift */; };
@@ -32,6 +33,7 @@
 		A7759F511D9B8F47002FD35E /* AAPLCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLCameraViewController.m; sourceTree = "<group>"; };
 		A7759F571D9B963D002FD35E /* AAPLCameraVCDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLCameraVCDelegate.h; sourceTree = "<group>"; };
 		A7759F581D9B9D2B002FD35E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A7914DB41D9BD1AB00E55C70 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		A7BA0EC01D9BAB920077AD39 /* RoundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
 		A7CA956F1D9BB3C200EC39B7 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		A7CA95721D9BB67B00EC39B7 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				A7CA95721D9BB67B00EC39B7 /* AuthService.swift */,
+				A7914DB41D9BD1AB00E55C70 /* DataService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7914DB51D9BD1AB00E55C70 /* DataService.swift in Sources */,
 				A7FAD5501D9B797700F6B424 /* CameraVC.swift in Sources */,
 				A7FB90561D9BB037003C34B4 /* RoundedButton.swift in Sources */,
 				A7CA95701D9BB3C200EC39B7 /* LoginVC.swift in Sources */,
