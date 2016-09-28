@@ -28,7 +28,7 @@ class CameraVC: AAPLCameraViewController, AAPLCameraVCDelegate {
         
         guard FIRAuth.auth()?.currentUser != nil else {
             //Load login vc
-            //Checks login and makes the work for you easy
+            //Checks login and if logged in, automatically logs you in
             return performSegue(withIdentifier: "LoginVC", sender: nil)
         }
     }
