@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CameraVC.swift 
 //  DevChat
 //
 //  Created by Baynham Makusha on 9/28/16.
