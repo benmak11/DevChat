@@ -22,6 +22,7 @@ class UserCell: UITableViewCell {
         
         let imageStr = selected ? "messageindicatorchecked1" : "messageindicator1"
         
+        
     }
 
 }
